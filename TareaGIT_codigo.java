@@ -7,17 +7,17 @@ public class TareaGIT_codigo {
     public static void main(String[] args) {
 
         /*ENUNCIADO
-            Pida 10 números por teclado y saque lo siguiente por pantalla: 
-                - Suma de esos 10 números.
+            Pida 11 números por teclado y saque lo siguiente por pantalla: 
+                - Suma de esos 11 números.
                 - Cuántos números positivos hay.
                 - Cuántos números negativos hay. 
          */
         
         Scanner scanner = new Scanner(System.in);
 
-        // Pedir 10 números por teclado
+        // Pedir 11 números por teclado
         double[] numeros = new double[10];
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 11; i++) {
             System.out.print("Introduce el número " + (i + 1) + ": ");
             numeros[i] = scanner.nextDouble();
         }
